@@ -1,0 +1,17 @@
+{
+  "name": "birthday-project",
+  "version": "1.0.0",
+  "description": "Büşra's birthday project",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "keywords": [
+    "birthday"
+  ],
+  "author": "Osman Sağsöz",
+  "license": "ISC"
+}

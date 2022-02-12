@@ -1,0 +1,31 @@
+body {
+    
+}
+
+main {
+    border: 10px dotted purple;
+}
+
+article {
+    border: 10px solid green;
+}
+
+.left {
+    border: 5px dotted blue;
+}
+
+.right {
+    border: 5px dotted blue;
+}
+
+.header {
+    border: 5px solid red;
+}
+
+.form {
+    border: 5px solid brown;
+}
+
+footer {
+    border: 10px solid purple;
+}
