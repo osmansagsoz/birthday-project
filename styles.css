@@ -8,24 +8,69 @@ main {
 
 article {
     border: 10px solid green;
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    display: block;
 }
 
 .left {
     border: 5px dotted blue;
+    flex-basis: 47%;
 }
 
 .right {
     border: 5px dotted blue;
+    flex-basis: 47%;
 }
 
 .header {
     border: 5px solid red;
+    
+}
+
+.header p, h1 {
+    border: 5px dotted orange;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 2.5rem 0;
 }
 
 .form {
     border: 5px solid brown;
+    padding: 3rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+label {
+    padding: 5px 0;
+    text-align: center;
+}
+
+input {
+    margin: 3px 0 3px 6rem;
+    width: 10rem;
+}
+
+button {
+    margin: 15px 0 0 8rem;
+    width: 7rem;
 }
 
 footer {
     border: 10px solid purple;
 }
+footer p {
+    border: 5px dashed red;
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
