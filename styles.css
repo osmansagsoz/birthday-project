@@ -71,6 +71,11 @@ input {
 button {
     margin: 15px 0 0 8rem;
     width: 7rem;
+    background-color: hotpink;
+    border-color: ivory;
+    border-radius: 2px;
+    font-family: 'Roboto Serif', sans-serif;
+    padding: 5px;
 }
 
 footer {
