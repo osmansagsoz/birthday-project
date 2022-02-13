@@ -1,0 +1,14 @@
+.swiper {
+    width: auto;
+    height: auto;
+  }
+
+  .swiper-slide {
+      text-align: center;
+  }
+
+  img {
+      height: 700px;
+  }
+
+  
