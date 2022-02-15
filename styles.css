@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto Serif', sans-serif;
 }
 
 main {
     border: 10px dotted purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 article {
@@ -71,11 +78,25 @@ input {
 button {
     margin: 15px 0 0 8rem;
     width: 7rem;
+    height: 2rem;
     background-color: hotpink;
-    border-color: ivory;
+    border: none;
     border-radius: 2px;
     font-family: 'Roboto Serif', sans-serif;
-    padding: 5px;
+    padding: 0;
+
+}
+
+button a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+}
+
+button a:hover {
+    background-color: azure;
+    color:blueviolet;
 }
 
 footer {
