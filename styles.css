@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Roboto Serif', sans-serif;
+    background-color: black;
+    color:bisque;
 }
 
 main {
@@ -16,7 +18,7 @@ main {
 article {
     border: 10px solid green;
     width: 55%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
 }
@@ -24,6 +26,7 @@ article {
 img {
     display: block;
     border-radius: 1rem;
+    width: 100%;
 }
 
 .left {
